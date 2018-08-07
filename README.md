@@ -57,8 +57,9 @@ Starting Neo4j.
 
 By default your login and password credentials are:
 
-login: neo4j
-password: neo4j
+**login:** neo4j
+
+**password:** neo4j
 
 After logging in you will be prompted to change your password.
 
