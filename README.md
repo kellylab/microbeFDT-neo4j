@@ -53,6 +53,15 @@ Starting Neo4j.
 2018-07-31 10:51:41.850+0000 INFO  Remote interface available at http://localhost:7474/
 ```
 
+### Create a neo4j login
+
+By default your login and password credentials are:
+
+login: neo4j
+password: neo4j
+
+After logging in you will be prompted to change your password.
+
 ## <a name="#nodes"></a>Nodes
 
 ### Nodes
