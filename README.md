@@ -37,7 +37,11 @@ neo4j-community-3.4.4/data/databases/$databasefile .
 ## unzip
 unzip MicrobefdtNeo4jgraph.zip
 
-### Move guides directory to databases directory
+### Move guides.zip to the root of your neo4j  directory
+
+cp neo4j/guides.zip .
+unzip guides.zip
+
 
 
 ### Open the neo4j browser
