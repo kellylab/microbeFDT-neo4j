@@ -37,6 +37,9 @@ neo4j-community-3.4.4/data/databases/$databasefile .
 ## unzip
 unzip MicrobefdtNeo4jgraph.zip
 
+### Move guides directory to databases directory
+
+
 ### Open the neo4j browser
 
 ```
@@ -62,6 +65,27 @@ By default your login and password credentials are:
 **password:** neo4j
 
 After logging in you will be prompted to change your password.
+
+### Run MicrobeFDT neo4j guide in browser
+
+For help getting started run the microbefdt guide.
+
+In a new terminal window navigate to the guides directory.
+
+```
+cd neo4j-microbeFDT/guides
+```
+Run the local python server.
+
+```
+python http-server.py
+```
+
+In the neo4j browser run:
+
+```
+:play http://localhost:8001/microbeFDT.html
+```
 
 ## <a name="#nodes"></a>Nodes
 
