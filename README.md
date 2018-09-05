@@ -3,7 +3,6 @@
 # About microbeFDT
 The gut microbiota complements host-driven metabolism of dietary compounds and xenobiotics, such as therapeutic drugs. Some gastrointestinally-routed drugs with uncharacterized metabolism and downstream effects on patients, have overlapping chemical properties with dietary compounds and thus may share gut microbiota enzymatic susceptibilities. Here, we present a database, MicrobeFDT, which predicts food and drug susceptibility to microbial metabolism by clustering chemically similar drug and food compounds and linking these compounds to microbial enzymes and known toxicities. We hypothesize that the chemical structures of dietary compounds metabolized by bacteria can be used to infer microbial metabolism of uncharacterized drugs with overlapping chemical similarity. We identify therapeutic drugs with potential microbiota-mediated toxicity, highlight understudied microbial enzyme families that may influence drug metabolism and identify drug-food-microbiome interactions that may alter microbiome function and influence host phenotypes.
 
-See:[put link here]()
 <img align="right" src="images/model.png" />
 
 * [Install](#install)
@@ -29,20 +28,23 @@ Neo4j is an open source graph database. To interact with the MicrobeFDT database
 git clone https://github.com/ltcguthrie/microbeFDT-neo4j.git
 cd microbeFDT-neo4j
 ```
-### Move database file to the neo4j databases directory
 
-database file = microbeFDT-neo4j/microbeFDT/MicrobefdtNeo4jgraph.zip
-## move to
-neo4j-community-3.4.4/data/databases/$databasefile .
-## unzip
+There are two files in the microbeFDT-neo4j sub directory.
+
+* microbeFDT-neo4j/microbeFDT/MicrobefdtNeo4jgraph.zip
+* microbeFDT-neo4j/microbeFDT/guides.zip
+
+### Move and unzip *MicrobefdtNeo4jgraph.zip* in the neo4j databases directory
+
+cd neo4j-community-3.4.4/data/databases
+cp $pathtofile/$database_file .
 unzip MicrobefdtNeo4jgraph.zip
 
-### Move guides.zip to the root of your neo4j  directory
+### Move and unzip *guides.zip* in the root of your neo4j  directory
 
-cp neo4j/guides.zip .
+cd neo4j-community-3.4.4/
+cp $pathtofile/guides.zip .
 unzip guides.zip
-
-
 
 ### Open the neo4j browser
 
