@@ -21,7 +21,7 @@ The gut microbiota complements host-driven metabolism of dietary compounds and x
 Neo4j is an open source graph database. To interact with the MicrobeFDT database you will need to [download Neo4j](http://neo4j.com/download/other-releases/) and follow their instructions for your operating system. MicrobeFDT is run on the Community Edition 3.4.4. 
 
 
-## <a name="#connect"></a>Connect
+## <a name="#connect"></a>Connect to MicrobeFDT
 
 ### Clone this respoitory.
 ```
@@ -34,11 +34,11 @@ There are two files in the microbeFDT-neo4j sub directory.
 * microbeFDT-neo4j/microbeFDT/MicrobefdtNeo4jgraph.zip
 * microbeFDT-neo4j/microbeFDT/guides.zip
 
-### Move and unzip *MicrobefdtNeo4jgraph.zip* in the neo4j databases directory
+### Copy, move and unzip *MicrobefdtNeo4jgraph.zip* in the neo4j databases directory
 
 cd neo4j-community-3.4.4/data/databases
-cp $pathtofile/$database_file .
-unzip MicrobefdtNeo4jgraph.zip
+wget https://www.dropbox.com/s/0w85jstzubbk7yz/MicrobefdtNeo4jgraph.zip?dl=0 or download this file from the link.
+unzip MicrobefdtNeo4jgraph.zip?dl
 
 ### Move and unzip *guides.zip* in the root of your neo4j  directory
 
