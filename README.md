@@ -32,14 +32,14 @@ wget https://www.dropbox.com/s/0w85jstzubbk7yz/MicrobefdtNeo4jgraph.zip?dl=0 or 
 unzip MicrobefdtNeo4jgraph.zip?dl
 ```
 
-### Move and unzip *guides.zip* in the root of your neo4j  directory
+### Navigate to the root of your neo4j directory and copy the microbeFDT guide file file here.
 
-The guide file is hosted [here](https://github.com/kellylab/microbeFDT-neo4j/blob/master/microbeFDT/guides.zip).
+The guide file is hosted [here](https://www.dropbox.com/s/z3e917ovxx1xwcm/microbeFDT_guide.zip?dl=0).
 
 ```
 cd neo4j-community-3.4.4/
-cp $pathtofile/guides.zip .
-unzip guides.zip
+wget https://www.dropbox.com/s/z3e917ovxx1xwcm/microbeFDT_guide.zip?dl=0
+unzip microbeFDT_guide.zip?dl=0
 ```
 ### Open the neo4j browser
 
