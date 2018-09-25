@@ -1,9 +1,32 @@
 # microbeFDT-neo4j
 
 # About microbeFDT
-The gut microbiota complements host-driven metabolism of dietary compounds and xenobiotics, such as therapeutic drugs. Some gastrointestinally-routed drugs with uncharacterized metabolism and downstream effects on patients, have overlapping chemical properties with dietary compounds and thus may share gut microbiota enzymatic susceptibilities. Here, we present a database, MicrobeFDT, which predicts food and drug susceptibility to microbial metabolism by clustering chemically similar drug and food compounds and linking these compounds to microbial enzymes and known toxicities. We hypothesize that the chemical structures of dietary compounds metabolized by bacteria can be used to infer microbial metabolism of uncharacterized drugs with overlapping chemical similarity. We identify therapeutic drugs with potential microbiota-mediated toxicity, highlight understudied microbial enzyme families that may influence drug metabolism and identify drug-food-microbiome interactions that may alter microbiome function and influence host phenotypes.
+The gut microbiota complements host-driven metabolism of dietary compounds and xenobiotics, such as therapeutic drugs. Some gastrointestinally-routed drugs with uncharacterized metabolism and downstream effects on patients, have overlapping chemical properties with dietary compounds and thus may share gut microbiota enzymatic susceptibilities. 
 
 <img align="right" src="images/model.png" />
+
+Here, we present a database, MicrobeFDT, which predicts food and drug susceptibility to microbial metabolism by clustering chemically similar drug and food compounds and linking these compounds to microbial enzymes and known toxicities. We hypothesize that the chemical structures of dietary compounds metabolized by bacteria can be used to infer microbial metabolism of uncharacterized drugs with overlapping chemical similarity. We identify therapeutic drugs with potential microbiota-mediated toxicity, highlight understudied microbial enzyme families that may influence drug metabolism and identify drug-food-microbiome interactions that may alter microbiome function and influence host phenotypes.
+
+
+# Running MicrobeFDT
+
+## Option 1 -- Run a local Neo4j instance with MicrobeFDT
+
+[Instructions for installing docker](https://docs.docker.com/install/)
+
+
+Download database file
+```
+wget https://www.dropbox.com/s/0w85jstzubbk7yz/MicrobefdtNeo4jgraph.zip?dl=0 or download this file from the link.
+unzip MicrobefdtNeo4jgraph.zip?dl
+```
+Run neo4j docker image with MicrobeFDT database
+
+```
+docker run --publish=7474:7474 --publish=7687:7687 --volume=/path/to/dbfile/:/data neo4j:3.4.4
+```
+
+## Option 2 --  Run MicrobeFDT locally on your machine
 
 * [Install](#install)
 * [Connect](#connect)
