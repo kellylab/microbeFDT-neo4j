@@ -20,7 +20,9 @@ Download database file
 ```
 wget https://www.dropbox.com/s/0w85jstzubbk7yz/MicrobefdtNeo4jgraph.zip?dl=0 or download this file from the link.
 unzip MicrobefdtNeo4jgraph.zip?dl=0
+```
 
+```
 MicrobefdtNeo4jgraph.zip?dl=0
 ```
 
@@ -29,7 +31,9 @@ Download configuration file
 ```
 wget https://www.dropbox.com/s/mtylv8rvdad4no6/conf.zip?dl=0 or download this file [here](https://github.com/kellylab/microbeFDT-neo4j/blob/master/microbeFDT/conf.zip).
 unzip conf.zip?dl=0
+```
 
+```
 conf
 ```
 
@@ -38,7 +42,6 @@ Run neo4j docker image with MicrobeFDT database
 
 ```
 docker run --publish=7474:7474 --publish=7687:7687 --volume=/pathto/data/:/data --volume=/$pathto/conf:/conf neo4j:3.4.4
-
 ```
 
 ## Option 2 --  Run MicrobeFDT locally on your machine
