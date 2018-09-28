@@ -25,9 +25,9 @@ wget https://www.dropbox.com/s/m6xx7qjd2o0tmfw/microbefdt.tar?dl=0
 tar xvf microbefdt.tar?dl=0
 ls
 ```
-### output
+#### output
 
-```
+```console
 conf                data                microbefdt.tar?dl=0
 ```
 Run neo4j docker image with MicrobeFDT database
