@@ -36,6 +36,31 @@ Run neo4j docker image with MicrobeFDT database
 docker run --publish=7474:7474 --publish=7687:7687 --volume=/$fullpathto/MicrobeFDT_db/data/:/data --volume=/$fullpathto/MicrobeFDT_db/conf:/conf neo4j:3.4.4
 ```
 
+#### output
+
+```console
+Active database: graph.db
+Directories in use:
+  home:         /var/lib/neo4j
+  config:       /var/lib/neo4j/conf
+  logs:         /var/lib/neo4j/logs
+  plugins:      /var/lib/neo4j/plugins
+  import:       /var/lib/neo4j/import
+  data:         /var/lib/neo4j/data
+  certificates: /var/lib/neo4j/certificates
+  run:          /var/lib/neo4j/run
+Starting Neo4j.
+2018-09-28 15:27:52.495+0000 INFO  ======== Neo4j 3.4.4 ========
+2018-09-28 15:27:52.526+0000 INFO  Starting...
+2018-09-28 15:27:55.624+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2018-09-28 15:27:58.358+0000 INFO  Started.
+2018-09-28 15:27:59.575+0000 INFO  Remote interface available at http://localhost:7474/
+```
+
+Go to http://localhost:7474/ in your browser.
+
+
+
 ## Option 2 --  Run MicrobeFDT locally on your machine
 
 * [Install](#install)
