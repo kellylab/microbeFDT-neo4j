@@ -21,8 +21,8 @@ Download MicrobeFDT database and configuration
 ```
 mkdir MicrobeFDT_db
 cd MicrobeFDT_db
-wget https://www.dropbox.com/s/m6xx7qjd2o0tmfw/microbefdt.tar?dl=0
-tar xvf microbefdt.tar?dl=0
+wget https://www.dropbox.com/s/m6xx7qjd2o0tmfw/microbefdt.tar
+tar xvf microbefdt.tar
 ls
 ```
 #### output
