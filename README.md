@@ -99,6 +99,8 @@ The guide file is hosted [here](https://www.dropbox.com/s/z3e917ovxx1xwcm/microb
 ```
 cd neo4j-community-3.4.4/
 wget https://www.dropbox.com/s/z3e917ovxx1xwcm/microbeFDT_guide.zip
+mkdir guides
+cd guides
 unzip microbeFDT_guide.zip
 ```
 
