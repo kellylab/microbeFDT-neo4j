@@ -98,9 +98,17 @@ The guide file is hosted [here](https://www.dropbox.com/s/z3e917ovxx1xwcm/microb
 
 ```
 cd neo4j-community-3.4.4/
-wget https://www.dropbox.com/s/z3e917ovxx1xwcm/microbeFDT_guide.zip?dl=0
-unzip microbeFDT_guide.zip?dl=0
+wget https://www.dropbox.com/s/z3e917ovxx1xwcm/microbeFDT_guide.zip
+unzip microbeFDT_guide.zip
 ```
+
+### output
+
+```console
+http-server.py		microbeFDT.html		microbeFDT_guide.zip
+```
+
+
 ### Open the neo4j browser
 
 ```
