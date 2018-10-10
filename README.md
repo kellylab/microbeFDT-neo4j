@@ -32,8 +32,10 @@ conf                data                microbefdt.tar?dl=0
 ```
 Run neo4j docker image with MicrobeFDT database
 
+Replace *$fullpathto* with the full path to the data/ and conf/ directories.
+
 ```
-docker run --publish=7474:7474 --publish=7687:7687 --volume=/$fullpathto/MicrobeFDT_db/data/:/data --volume=/$fullpathto/MicrobeFDT_db/conf:/conf neo4j:3.4.4
+docker run --publish=7474:7474 --publish=7687:7687 --volume=/*$fullpathto*/MicrobeFDT_db/data/:/data --volume=/$fullpathto/MicrobeFDT_db/conf:/conf neo4j:3.4.4
 ```
 
 #### output
