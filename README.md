@@ -162,6 +162,8 @@ In the neo4j browser run:
 
 ### Nodes
 
+To recreate the database from source or to access flatfiles used to create the database use the following [link](https://www.dropbox.com/s/n4dsebczii69sfb/MicrobeFDT_files.zip)
+
 | Node                          | Properties              | Property Description                |
 |-------------------------------|-------------------------|-------------------------------------|
 | Compound                      | cpID                    | PubChem CID                         |
